@@ -1,0 +1,78 @@
+body{ 
+    background-image: url("https://images.hgmsites.net/hug/rolls-royce-boat-tail_100793083_h.jpg");
+	background-repeat: no-repeat;
+	background-size:1350px;
+	
+
+	
+}
+.aclass{ 
+	color:white;
+}    
+.aaclass{
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	font-size:60px; 
+} 
+.aaclass:hover{
+	color:black;
+}
+img[src="https://e7.pngegg.com/pngimages/679/676/png-clipart-double-r-logo-rolls-royce-logo-icons-logos-emojis-iconic-brands.png"]{
+	border:100px;
+}
+.color{
+	color:white;
+}
+.color1{
+	color:white;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	max-width: 800xp;
+}
+.box{
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+#cf{
+	position:relative;
+	
+	width: 1350px;
+	margin:0 auto;
+} 
+#cf img{
+	width: 1350px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+	opacity:0;
+}
+
+#cf2 {
+	position:absolute;
+	width: 1350px;
+	margin: 0 auto;
+	float: left;
+}
+#cf2 img {
+	width: 1350px;
+	position:absolute;
+	left:0px;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+	opacity:0;
+}
+#cf-onclick { 
+	cursor:pointer;
+}
